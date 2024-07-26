@@ -61,5 +61,5 @@ mycursor.execute("""
 """
 )
 sql = "INSERT INTO customers (customer_name, email, address) VALUES (%s, %s)"
-val = ("Cole Baidoo", "cbaidoo@sandtech.com", "123 Happiness Ave")
+val = ("Cole Baidoo", "cbaidoo@sandtech.com", "123 Happiness Ave.")
 mycursor.execute( sql, val, "TABLE_SCHEMA = 'alx_book_store'")
