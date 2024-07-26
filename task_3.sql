@@ -61,7 +61,7 @@ mycursor.execute("""
 """
 )
 
-mycursor.execute("SHOW TABLES")
+mycursor.execute("USE alx_book_store;")
 
 for table in mycursor:
     print(table)
