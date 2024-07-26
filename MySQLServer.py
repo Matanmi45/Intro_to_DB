@@ -8,5 +8,5 @@ mydb = try:
           password="yourpassword",
           database="mydb")
           print("Database 'alx_book_store' created successfully!")
-       except:
+       except mysql.connector.Error:
           print("connection not established")
