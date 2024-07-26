@@ -1,5 +1,5 @@
 import mysql.connector
-mydb = CREATE DATABASE alx_book_store;
+mydb = CREATE DATABASE IF NOT EXISTS alx_book_store;
 
 mydb = try:
           mysql.connector.connect(
